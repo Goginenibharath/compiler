@@ -11,6 +11,7 @@ struct tnode* makeLeafNode(int n){
 struct tnode* newfucntion(){
 printf("hi");
 printf("trying for githb");
+printf("now i am adding it again");
 }
 struct tnode* makeOperatorNode(char c,struct tnode *l,struct tnode *r){
     struct tnode *temp;
