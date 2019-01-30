@@ -8,6 +8,9 @@ struct tnode* makeLeafNode(int n){
     return temp;
 }
 
+struct tnode* newfucntion(){
+printf("hi");
+}
 struct tnode* makeOperatorNode(char c,struct tnode *l,struct tnode *r){
     struct tnode *temp;
     temp = (struct tnode*)malloc(sizeof(struct tnode));
